@@ -1,0 +1,21 @@
+<p>
+  grid works!
+</p>
+<app-favorite></app-favorite>
+
+<!-- <mat-grid-list cols="3" rowHeight="3:3"> -->
+
+  <div *ngFor="let character of characters">
+  <div class="position">
+
+        <i (click)="addToFavorite(character, $event)" class="material-icons active inactive">favorite</i>
+  
+
+    {{character.name}}
+  
+    <img src="{{ character.image }}" width="200px">
+  
+  </div>
+</div>
+<!-- </mat-grid-tile>
+</mat-grid-list> -->

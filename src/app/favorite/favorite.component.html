@@ -1,0 +1,8 @@
+<p>
+  favorite works!
+</p>
+
+<div *ngFor="let favorite of favorites | slice:0:3">
+    {{favorite.name}}
+    <img src="{{ favorite.image }}" width="200px">    
+</div>

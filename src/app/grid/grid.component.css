@@ -1,0 +1,13 @@
+.active {
+    color:red;
+    }
+    
+    .inactive {
+        color: black;
+    }
+    
+    .position {
+        display: flex;
+        justify-content: center;
+      flex-direction: column;
+    }
